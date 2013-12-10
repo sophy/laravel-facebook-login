@@ -11,6 +11,13 @@
 |
 */
 
+/*
+|-----------------  
+|Home for test
+|-----------------
+*/
+Route::get('/home', array('as' => 'home', 'uses' => 'HomeController@showWelcome'));
+
 Route::get('/', function()
 {
     $data = array();
