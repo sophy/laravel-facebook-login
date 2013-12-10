@@ -10,6 +10,57 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
+/*
+|--------------------------------------------------------------------------
+| Admin Routes
+|--------------------------------------------------------------------------
+|
+| Register all the admin routes.
+|
+*/
+
+Route::group(array('prefix' => 'admin'), function()
+{
+
+});
+/*
+|--------------------------------------------------------------------------
+| Account Routes
+|--------------------------------------------------------------------------
+|
+|
+|
+*/
+
+Route::group(array('prefix' => 'account'), function()
+{
+
+});
+/*
+|--------------------------------------------------------------------------
+| Account User
+|--------------------------------------------------------------------------
+|
+|
+|
+*/
+
+Route::group(array('prefix' => 'user'), function()
+{
+});
+
+/*
+|--------------------------------------------------------------------------
+| Account User
+|--------------------------------------------------------------------------
+|
+|
+|
+*/
+
+Route::group(array('prefix' => 'photo'), function()
+{
+});
 
 /*
 |-----------------  
@@ -78,3 +129,7 @@ Route::get('logout', function() {
     Auth::logout();
     return Redirect::to('/');
 });
+
+Route::resource('photos', 'PhotosController');
+
+Route::resource('files', 'FilesController');

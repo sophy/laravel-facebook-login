@@ -1,0 +1,27 @@
+/**
+ * Cloud: #ecf0f1;
+ * Green: #2ecc71;
+ */
+.container {
+	width: 970px !important;
+}
+.site-header {
+	background: #2980b9;
+	border-bottom: 1px solid #16679C;
+}
+.brand {
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	width: 80px;
+	position: absolute;
+	left: 15px;
+	bottom: 0x;
+}
+.brand a {
+	color: #fff;
+	line-height: 40px;
+	height: 40px;
+	display: inline-block;
+
+}

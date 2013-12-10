@@ -19,6 +19,9 @@ module.exports = function(grunt) {
         },
         files: {
           'public/assets/css/main.min.css': [
+            'public/dev/css/bootstrap.min.css',
+            'public/dev/css/font-awesome.min.css',
+            'public/dev/css/menu.css',
             'public/dev/css/style.css'
           ]
         }
