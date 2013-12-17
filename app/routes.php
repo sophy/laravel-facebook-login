@@ -62,6 +62,11 @@ Route::group(array('prefix' => 'photo'), function()
 {
 });
 
+/** 
+ * Upload photo
+ */
+Route::get('/upload', 'PhotosController@getUpload');
+Route::post('/upload', 'PhotosController@postUpload');
 /*
 |-----------------  
 |Home for test

@@ -16,7 +16,7 @@
 				<li><a href="#">Log in</a></li>
 				<li><a href="#">Sign up</a></li>
 			</ul>
-			<a class="btn-upload btn btn-success">Upload</a>
+			<a class="btn-upload btn btn-success" href="{{URL::to('upload')}}">Upload <span class="glyphicon glyphicon-cloud-upload"></span></a>
 		</div>
 	</div>
 </div>

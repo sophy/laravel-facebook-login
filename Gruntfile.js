@@ -22,6 +22,7 @@ module.exports = function(grunt) {
             'public/dev/css/bootstrap.min.css',
             'public/dev/css/font-awesome.min.css',
             'public/dev/css/menu.css',
+            'public/dev/css/home.css',
             'public/dev/css/style.css'
           ]
         }

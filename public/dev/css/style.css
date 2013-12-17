@@ -2,6 +2,9 @@
  * Cloud: #ecf0f1;
  * Green: #2ecc71;
  */
+body {
+	color: #666;
+}
 .container {
 	width: 970px !important;
 }
@@ -24,4 +27,13 @@
 	height: 40px;
 	display: inline-block;
 
+}
+/** Main Site **/
+.main-site {
+	padding-top: 0;
+	margin-top: 0;
+}
+.main {
+	border-right: 1px solid #ccc;
+	padding-top: 30px;
 }

@@ -12,68 +12,23 @@ class PhotosController extends BaseController {
         return View::make('photos.index');
 	}
 
+	
 	/**
-	 * Show the form for creating a new resource.
-	 *
-	 * @return Response
+	 * Get Upload a photo
+	 *  
+	 *  @return  void
 	 */
-	public function create()
-	{
-        return View::make('photos.create');
+	public function getUpload() {
+		echo 'Hello';
 	}
 
 	/**
-	 * Store a newly created resource in storage.
-	 *
-	 * @return Response
+	 * Get Upload a photo
+	 *  
+	 *  @return  void
 	 */
-	public function store()
-	{
-		//
-	}
-
-	/**
-	 * Display the specified resource.
-	 *
-	 * @param  int  $id
-	 * @return Response
-	 */
-	public function show($id)
-	{
-        return View::make('photos.show');
-	}
-
-	/**
-	 * Show the form for editing the specified resource.
-	 *
-	 * @param  int  $id
-	 * @return Response
-	 */
-	public function edit($id)
-	{
-        return View::make('photos.edit');
-	}
-
-	/**
-	 * Update the specified resource in storage.
-	 *
-	 * @param  int  $id
-	 * @return Response
-	 */
-	public function update($id)
-	{
-		//
-	}
-
-	/**
-	 * Remove the specified resource from storage.
-	 *
-	 * @param  int  $id
-	 * @return Response
-	 */
-	public function destroy($id)
-	{
-		//
+	public function postUpload() {
+		
 	}
 
 }
