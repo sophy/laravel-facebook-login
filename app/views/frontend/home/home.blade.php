@@ -1,4 +1,4 @@
-@extends('frontend.layouts.home')
+@extends('frontend.layouts.default')
 @section('title')
 	Oh Khmer
 @stop
